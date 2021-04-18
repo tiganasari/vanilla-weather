@@ -64,21 +64,12 @@ img {
 }
 
 .degrees {
-  font-size: 15px;
-  padding-bottom: 20px;
+  font-size: 13px;
+  margin-bottom: 15px;
 }
 
-.degrees:hover {
-  cursor: pointer;
-}
-#celcius {
-  text-decoration: underline;
-}
-#fahrenheit {
-  text-decoration: underline;
-}
 h4 {
-  font-size: 19px;
+  font-size: 22px;
   color: rgb(178, 173, 173);
   margin-bottom: 40px;
   margin: 0 auto;
@@ -137,4 +128,9 @@ a {
 
 a:hover {
   text-decoration: underline;
+}
+
+#degreesC,
+#degreesF {
+  color: black;
 }
