@@ -28,7 +28,7 @@ function displayTemperature(response) {
     response.data.main.temp
   )}°C`;
   document.querySelector("#description").innerHTML =
-    response.data.weather[0].main;
+    response.data.weather[0].description;
   document.querySelector(
     "#pressure"
   ).innerHTML = `${response.data.main.pressure} mb`;
@@ -44,8 +44,7 @@ function displayTemperature(response) {
     "src",
     `http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`
   );
-  iconElement.setAttribute("alt", response.data.weather[0].description);
-
+ iconElement.setAttribute("alt", response.data.weather[0].description);
 
 celciusTemperature = response.data.main.temp;
 
