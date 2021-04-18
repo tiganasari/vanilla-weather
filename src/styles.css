@@ -5,6 +5,7 @@
   margin-bottom: 50px;
   border-radius: 20px;
   padding: 40px;
+  padding-bottom: 20px;
   background-color: white;
   letter-spacing: 1.5px;
 }
@@ -86,7 +87,7 @@ h4 {
 
 .bottom-weather {
   border: 1px solid none;
-  padding: 20px;
+  padding: 30px;
   background-color: rgb(223, 223, 223);
   border-radius: 5px;
   margin: -5px;
@@ -100,7 +101,7 @@ h4 {
 }
 .more-information h6,
 p {
-  font-size: 12px;
+  font-size: 14px;
 }
 
 .more-information,
@@ -123,10 +124,11 @@ p {
 
 footer {
   color: darkgrey;
-  font-size: 12px;
+  font-size: 11px;
   letter-spacing: 1.5px;
   text-align: center;
   margin-bottom: 20px;
+  margin-top: 40px;
 }
 
 a {
