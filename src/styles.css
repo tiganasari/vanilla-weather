@@ -104,11 +104,23 @@ p {
   text-align: center;
   letter-spacing: 0px;
 }
-
 .hourly-weather h6 {
   font-size: 15px;
 }
+.forecast-weather {
+  font-size: 11px;
+  text-align: center;
+}
 
+.weather-forecast-temperature-min,
+.weather-forecast-temperature-max {
+  font-size: 10.5px;
+  letter-spacing: 0.5px;
+}
+
+.weather-forecast-temperature-min {
+  opacity: 0.8;
+}
 footer {
   color: darkgrey;
   font-size: 11px;
