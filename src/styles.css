@@ -110,6 +110,7 @@ p {
 .forecast-weather {
   font-size: 11px;
   text-align: center;
+  margin: 20px auto;
 }
 
 .weather-forecast-temperature-min,
@@ -119,8 +120,9 @@ p {
 }
 
 .weather-forecast-temperature-min {
-  opacity: 0.8;
+  opacity: 0.6;
 }
+
 footer {
   color: darkgrey;
   font-size: 11px;
