@@ -108,26 +108,7 @@ let form = document.querySelector("form");
 form.addEventListener("submit", submitCity);
 
 
-function displayFahrenheitTemperature(event) {
-event.preventDefault();
- let temperatureElement = document.querySelector("#showTemperature");
- let fahrenheitTemperature = (celciusTemperature * 9) / 5 + 32;
- temperatureElement.innerHTML = `${Math.round(fahrenheitTemperature)}°F`;
-}
 
-function displayCelsiusTemperature(event) {
-event.preventDefault();
-let temperatureCElement = document.querySelector("#showTemperature");
-temperatureCElement.innerHTML = `${Math.round(celciusTemperature)}°C`;
-
-}
-celciusTemperature = null;
-
-let fahrenheitLink = document.querySelector("#degreesF");
-fahrenheitLink.addEventListener("click", displayFahrenheitTemperature);
-
-let celsiusLink = document.querySelector("#degreesC");
-celsiusLink.addEventListener("click", displayCelsiusTemperature);
 
 
 search("London");
